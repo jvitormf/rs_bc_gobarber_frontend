@@ -1,0 +1,57 @@
+//criar aplicacao reactJS
+yarn create react-app frontend
+
+//configuracao de padrao de escrita de codigo
+yarn add eslint -D
+yarn eslint --init
+
+//adiciona prettier eslint-config e eslint pluglin
+yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint@10.0.2 -D
+
+//adiciona plugin hooks
+yarn add eslint-plugin-react-hooks -D
+
+//adicona roteador de mapeamentos
+yarn add react-router-dom
+
+//stylos de componentes
+yarn add styled-components
+
+//pacote de icones mais famosos
+yarn add react-icons
+
+//biblioteca para cores
+yarn add polished
+
+//adicionar api fake
+yarn global add json-server
+
+//consumir aplicacoes externas
+yarn add axios
+
+//rodar servidor fake
+json-server server.json -p 3333
+
+//adicionar redux ao projeto
+yarn add redux react-redux
+
+//reactotron e integrado ao redux
+yarn add reactotron-react-js reactotron-redux
+
+//ferramenta para usar objetos e arrays
+yarn add immer
+
+//adicionar redux saga
+yarn add redux-saga
+
+//mais detalhes de log
+yarn add reactotron-redux-saga
+
+//mostrar mensagens para usuario
+yarn add react-toastify
+
+//direcionar usuario pelas rotas reducer
+yarn add history
+
+//adiciona biblioteca
+yarn add prop-types

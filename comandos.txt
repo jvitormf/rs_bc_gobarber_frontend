@@ -8,14 +8,33 @@ yarn eslint --init
 //adiciona prettier eslint-config e eslint pluglin
 yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint@10.0.2 -D
 
-//adiciona plugin hooks
-yarn add eslint-plugin-react-hooks -D
-
 //adicona roteador de mapeamentos
 yarn add react-router-dom
 
+//direcionar usuario pelas rotas reducer
+yarn add history
+
+//reactotron
+yarn add reactotron-react-js
+
+//adiciona biblioteca
+yarn add prop-types
+
 //stylos de componentes
 yarn add styled-components
+
+//customizar app
+yarn add customize-cra react-app-rewired -D
+yarn add babel-plugin-root-import -D
+yarn add eslint-import-resolver-babel-plugin-root-import -D
+
+
+
+
+//adiciona plugin hooks
+yarn add eslint-plugin-react-hooks -D
+
+
 
 //pacote de icones mais famosos
 yarn add react-icons
@@ -50,8 +69,6 @@ yarn add reactotron-redux-saga
 //mostrar mensagens para usuario
 yarn add react-toastify
 
-//direcionar usuario pelas rotas reducer
-yarn add history
 
-//adiciona biblioteca
-yarn add prop-types
+
+

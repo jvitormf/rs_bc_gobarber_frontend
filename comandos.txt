@@ -28,6 +28,37 @@ yarn add customize-cra react-app-rewired -D
 yarn add babel-plugin-root-import -D
 yarn add eslint-import-resolver-babel-plugin-root-import -D
 
+//biblioteca para cores styled components
+yarn add polished
+
+//criar formulario performaticos
+yarn add @rocketseat/unform
+
+//validacao de dados
+yarn add yup
+
+//adicionar redux ao projeto
+yarn add redux redux-saga react-redux reactotron-redux reactotron-redux-saga immer
+
+//consumir aplicacoes externas
+yarn add axios
+
+//localstorage redux
+yarn add redux-persist
+
+//mostrar mensagens para usuario
+yarn add react-toastify
+
+//pacote de icones mais famosos
+yarn add react-icons
+
+//adiona scrollbars
+yarn add react-perfect-scrollbar
+
+
+//adiciona biblioteca de data
+yarn add date-fns@next
+
 
 
 
@@ -36,38 +67,16 @@ yarn add eslint-plugin-react-hooks -D
 
 
 
-//pacote de icones mais famosos
-yarn add react-icons
-
-//biblioteca para cores
-yarn add polished
-
 //adicionar api fake
 yarn global add json-server
-
-//consumir aplicacoes externas
-yarn add axios
 
 //rodar servidor fake
 json-server server.json -p 3333
 
-//adicionar redux ao projeto
-yarn add redux react-redux
-
 //reactotron e integrado ao redux
-yarn add reactotron-react-js reactotron-redux
+yarn add reactotron-react-js
 
-//ferramenta para usar objetos e arrays
-yarn add immer
 
-//adicionar redux saga
-yarn add redux-saga
-
-//mais detalhes de log
-yarn add reactotron-redux-saga
-
-//mostrar mensagens para usuario
-yarn add react-toastify
 
 
 

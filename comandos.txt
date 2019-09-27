@@ -59,7 +59,8 @@ yarn add react-perfect-scrollbar
 //adiciona biblioteca de data
 yarn add date-fns@next
 
-
+//utilizar time zones
+yarn add date-fns-tz
 
 
 //adiciona plugin hooks
